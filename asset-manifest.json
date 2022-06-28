@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DanielSocorro/introduction-react.git/static/css/main.eb282288.css",
+    "main.js": "/DanielSocorro/introduction-react.git/static/js/main.32fb22b4.js",
+    "static/media/delete.svg": "/DanielSocorro/introduction-react.git/static/media/delete.48b9479d1206b1d7534181999ac89ade.svg",
+    "index.html": "/DanielSocorro/introduction-react.git/index.html",
+    "static/media/check.svg": "/DanielSocorro/introduction-react.git/static/media/check.04dc6a4838e34c511fd64aa2ee687e4c.svg",
+    "main.eb282288.css.map": "/DanielSocorro/introduction-react.git/static/css/main.eb282288.css.map",
+    "main.32fb22b4.js.map": "/DanielSocorro/introduction-react.git/static/js/main.32fb22b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb282288.css",
+    "static/js/main.32fb22b4.js"
+  ]
+}
