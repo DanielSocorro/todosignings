@@ -1,0 +1,20 @@
+.TodoCounterimg {
+    background-image:url(../img/mu-logo.png);
+    background-repeat: no-repeat;
+    width: 75vw;
+    height: 29vh;
+    display: flex;
+    margin-left: 37px;
+    margin-right: auto;
+    margin-top: 33px;
+}
+.TodoCounter {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 29px;
+    width: 336px;
+    margin-left: 39vh;
+    margin-right: 100px;
+    margin-top: -131px;
+    height: 19vh;
+   
+};
