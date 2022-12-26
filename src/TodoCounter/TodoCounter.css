@@ -20,5 +20,12 @@
 };
 
 .TodoCounter--loading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 29px;
+    width: 336px;
+    margin-left: 39vh;
+    margin-right: 100px;
+    margin-top: -131px;
+    height: 19vh;
     opacity: 25%;
 }
