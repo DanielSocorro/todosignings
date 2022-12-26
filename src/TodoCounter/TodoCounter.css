@@ -18,3 +18,7 @@
     height: 19vh;
    
 };
+
+.TodoCounter--loading {
+    opacity: 25%;
+}
