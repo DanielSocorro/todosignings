@@ -16,5 +16,7 @@ outline-color: rgb(146, 145, 145);
 align-content: space-evenly;
 }
 
-
+.TodoSearch:disabled {
+    opacity: 25%;
+}
  
