@@ -16,6 +16,6 @@ function ChangeAlert( { show, toggleShow }) {
     }
 }
 
-const ChangeAlertWithStorageListener = withStorageAlert(ChangeAlert)
+const ChangeAlertWithStorageListener = withStorageListener(ChangeAlert)
 
 export { ChangeAlertWithStorageListener };
