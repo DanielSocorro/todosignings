@@ -22,9 +22,9 @@
     height: 40px;
     transition: fill .15s;
 }
-.Icon-container--check .Icon-svg .Icon-svg--check:hover {
-    fill:#4caf50;
-}
-.Icon-container--delete .Icon-svg .Icon-svg--delete:hover {
-    fill:red;
-}
+.Icon-container:hover .Icon-svg--check {
+    fill: #4caf50;
+  }
+  .Icon-container:hover .Icon-svg--delete {
+    fill: red;
+  }
