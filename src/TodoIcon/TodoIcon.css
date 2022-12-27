@@ -25,6 +25,6 @@
 .Icon-container--check .Icon-svg .Icon-svg--check:hover {
     fill:#4caf50;
 }
-.Icon-container:hover .Icon-svg .Icon-svg--delete {
+.Icon-container--delete .Icon-svg .Icon-svg--delete:hover {
     fill:red;
 }
