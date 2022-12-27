@@ -11,7 +11,7 @@ import { EmptyTodos } from "../EmptyTodos";
 import { TodoForm } from "../TodoForm";
 import { CreateTodoButton } from "../CreateTodoButton";
 import { Modal } from "../Modal";
-import { ChangeAlertWithStorageListener } from "../ChangeAlertWithStorageListener";
+import { ChangeAlertWithStorageListener } from "../ChangeAlert";
 
 function App() {
   const {
@@ -55,18 +55,7 @@ function App() {
         onEmptyTodos={() => <EmptyTodos />}
         onEmptySearchResults={(searchText) => 
         <p>No results for {searchText}</p>}
-
-        /* render={todo => (
-        <TodoItem
-            key={todo.text}
-            text={todo.text}
-            completed={todo.completed}
-            onComplete={() => completeTodo(todo.text)}
-            onDelete={() => deleteTodo(todo.text)}
-          />
-          )} */
-
-          
+        
       >
 
         {todo => (
@@ -90,7 +79,7 @@ function App() {
       )}
       <CreateTodoButton 
       setOpenModal={setOpenModal} />
-      
+
       <ChangeAlertWithStorageListener 
         sincronize={sincronizeTodos}
       />
