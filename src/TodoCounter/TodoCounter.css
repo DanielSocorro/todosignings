@@ -20,18 +20,9 @@
     opacity: 25%;
 }
 
-@media (min-width: 720px) {
-    .TodoCounterimg {
-      width: 25%;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
   @media (min-width: 720px) {
     .TodoCounter {
-      width: 20%;
+      width: 50%;
       font-size: 36px;
       margin-left: auto;
       margin-right: auto;
