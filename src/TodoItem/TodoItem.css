@@ -61,7 +61,7 @@
 
 @media (max-width: 768px) {
     .TodoItem {
-      width: 95%;
+      width: 100%;
     }
   }
   
