@@ -29,3 +29,30 @@
     height: 19vh;
     opacity: 25%;
 }
+
+@media (min-width: 720px) {
+    .TodoCounterimg {
+      width: 50%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media (min-width: 720px) {
+    .TodoCounter {
+      width: 50%;
+      font-size: 36px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (min-width: 720px) {
+    .TodoCounter--loading {
+      width: 50%;
+      font-size: 36px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
