@@ -1,13 +1,12 @@
 .TodoCounter {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 29px;
-    width: 336px;
-    margin-left: 39vh;
-    margin-right: 100px;
-    margin-top: -131px;
-    height: 19vh;
     background-image:url(../img/mu-logo.png);
     background-repeat: no-repeat;
+    height: 27vh;
+    text-align: center;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
 };
 
 .TodoCounter--loading {
