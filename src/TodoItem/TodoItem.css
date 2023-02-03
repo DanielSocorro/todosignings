@@ -57,3 +57,11 @@
 .Icon-delete:hover {
     color: red;
 }
+
+
+@media (max-width: 768px) {
+    .TodoItem {
+      width: 95%;
+    }
+  }
+  
