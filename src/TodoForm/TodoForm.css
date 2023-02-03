@@ -90,3 +90,18 @@ form {
     border: none;
   }
   
+  @media only screen and (max-width: 768px) {
+    form {
+      width: 100%;
+      padding: 20px;
+    }
+    label {
+      font-size: 25px;
+    }
+    textarea {
+      width: 100%;
+      height: 50px;
+      font-size: 15px;
+    }
+  }
+  
