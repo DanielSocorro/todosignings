@@ -14,7 +14,7 @@
     align-items: center;
     height: 70px;
     width: 70px;
-
+    overflow: hidden;
     transform: rotate(0);
     transition: .3s ease;
     z-index: 1;
@@ -28,7 +28,7 @@
       right: 12px;
     }
   }
-  
+
 .CreateTodoButton:hover {
     transform: rotate(224deg);
 }
