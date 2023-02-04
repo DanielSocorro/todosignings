@@ -13,23 +13,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    width:70px;
+    height: 4rem;
+    width: 4rem;
     overflow: hidden;
     transform: rotate(0);
     transition: .3s ease;
     z-index: 1;
-    
+
 }
+
 @media (max-width: 600px) {
     .CreateTodoButton {
-      font-size: 40px;
-      height: 50px;
-      width: 50px;
-      bottom: 12px;
-      right: 12px;
+        position: fixed;
+        font-size: 40px;
+        height: 4rem;
+        width: 4rem;
+        bottom: 12px;
+        right: 12px;
     }
-  }
+}
 
 .CreateTodoButton:hover {
     transform: rotate(224deg);
