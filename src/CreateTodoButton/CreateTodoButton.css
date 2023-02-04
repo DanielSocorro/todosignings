@@ -25,7 +25,7 @@
 @media (max-width: 600px) {
     .CreateTodoButton {
         position: fixed;
-        font-size: 40px;
+        font-size: 3.5rem;
         height: 4rem;
         width: 4rem;
         bottom: 12px;
