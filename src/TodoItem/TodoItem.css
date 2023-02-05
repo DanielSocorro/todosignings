@@ -1,16 +1,15 @@
 .TodoItem{
-    font-family: 'Josefin Sans', sans-serif;
-    background-color:whitesmoke;
-    position: relative;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 24px;
-    box-shadow: 0px 10px 10px rgba(27, 34, 49, 15%);
+    background-color:whitesmoke;
     border: 0px;
-    border-radius: 28px;
-    width: 100%;
-  
+    border-radius: 18px;
+    box-shadow: 0px 10px 10px rgba(27, 34, 49, 15%);
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    position: relative;
+    width: 28rem;
+    margin: auto;
 }
 .TodoItem-p {
     margin: 24px -32px 24px 24px;
@@ -61,11 +60,8 @@
 
 @media (max-width: 768px) {
    
-    .TodoList-container {
-       
-    }
     .TodoItem {
-        width: 77vw;
+        width: 85vw;
         margin-left: auto;
         margin-right: auto;
       }
