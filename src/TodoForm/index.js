@@ -18,14 +18,12 @@ function TodoForm({ addTodo, setOpenModal }) {
     return (
         <form onSubmit={onSubmit}>
                <label>New Signings</label>
-               <container/>
                <textarea 
                value={newTodoValue}
                onChange={onChange}
                placeholder="Add a new player for signing"
                
                />
-               
                    <div className="TodoForm-buttonContainer">
                    <button
                    className="TodoForm-button-cancel"
