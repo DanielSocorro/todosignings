@@ -3,8 +3,9 @@
     display: flex;
     margin: auto;
     align-items: center;
-    width: 500px;
-    height: 195px;
+    justify-content: space-around;
+    width: 56vw;
+    height: 20vh;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 26px;
     background-color:whitesmoke;
