@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     height: 4rem;
-    width: 2rem;
+    width: 4rem;
     overflow: hidden;
     transform: rotate(0);
     transition: .3s ease;
@@ -22,6 +22,14 @@
 
 }
 
+
+@media (max-width: 600px) {
+    .CreateTodoButton {
+      width: 87%;
+      height: auto;
+      font-size: 18px;
+    }
+  }
 
 .CreateTodoButton:hover {
     transform: rotate(224deg);
