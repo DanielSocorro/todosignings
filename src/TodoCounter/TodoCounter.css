@@ -20,16 +20,13 @@
     opacity: 25%;
 }
 
-  @media (min-width: 720px) {
+@media only screen and (max-width: 768px){
     .TodoCounter {
       width: 50%;
       font-size: 36px;
       margin-left: auto;
       margin-right: auto;
     }
-  }
-  
-  @media (min-width: 720px) {
     .TodoCounter--loading {
       width: 50%;
       font-size: 36px;
