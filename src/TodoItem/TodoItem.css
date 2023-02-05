@@ -58,14 +58,16 @@
     color: red;
 }
 
-.TodoList-container {
-    display: flex;
-    justify-content: space-evenly;
 
-}
 @media (max-width: 768px) {
-    .TodoItem {
-      width: 90%;
+   
+    .TodoList-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 15px;
     }
+    .TodoItem {
+        width: 90%;
+      }
   }
   
