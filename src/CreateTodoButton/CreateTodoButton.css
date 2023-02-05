@@ -5,7 +5,7 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 60px;
+    font-size: 3.5rem;
     position: fixed;
     bottom: 22px;
     right: 22px;
@@ -22,16 +22,6 @@
 
 }
 
-@media (max-width: 600px) {
-    .CreateTodoButton {
-        position: fixed;
-        font-size: 3.5rem;
-        height: 5rem;
-        width: 0.5rem;
-        bottom: 5px;
-        right: 5px;
-    }
-}
 
 .CreateTodoButton:hover {
     transform: rotate(224deg);
