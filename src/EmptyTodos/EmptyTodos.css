@@ -1,5 +1,4 @@
 .Register {
-    padding-left: 35px;
     text-align: center;
     display: flex;
     margin: auto;
@@ -16,7 +15,7 @@
 @media (max-width: 600px) {
     .Register {
       width: 75vw;
-      height: auto;
+      height: 14vh;
       font-size: 18px;
       text-align: center;
     }
