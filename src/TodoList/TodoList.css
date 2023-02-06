@@ -6,3 +6,7 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
 }
+.TodoList-container {
+    display: flex;
+    justify-content: center;
+}
