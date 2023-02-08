@@ -73,7 +73,6 @@ textarea:focus {
   font-family: 'Josefin Sans', sans-serif;
   display: flex;
   background-color: #69fa61;
-  box-shadow: 0px 5px 25px rgba(97, 250, 168, 0.5);
   border-radius: 20px;
   border: none;
   width: 107px;
